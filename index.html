@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cf4023b3a4.js" crossorigin="anonymous"></script>
-    <title></title>
+    <title>Reservia</title>
 </head>
 <body>
     <header>
         <img src="images/logo/Reservia@3x.png" alt="logo reservia">
 
-        <nav style="navigation">  <!--Menu de navigation-->
+        <nav class="navigation">  <!--Menu de navigation-->
             <ol>
-                <ul>Hebergements</ul>
-                <ul>Actvité</ul>
+                <ul>Hébergements</ul>
+                <ul>Activité</ul>
                 <ul>S'inscrire</ul>
             </ol>
+        </nav>
+
 
             <p> <strong>Trouver votre hébergement pour des vacances de rêve</strong> </p>
             <p>En plein centre ville ou en pleine nature</p>
@@ -26,6 +28,7 @@
 
             <form action="https://www.google.com/maps/@46.2192649,2.0517,6z">
 
+                <i style="geoloc" class="fas fa-map-marker-alt"></i>
                 <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
 
                  <id="recherche"><input type="button" value="Rechercher"></form> <!-- Bouton rechercher-->
@@ -35,13 +38,15 @@
                      <p> <strong>Filtres</strong></p>
 
                      <div class="filtres">
-                         
+
                      <div>Economique</div>
                      <div>Familial</div>
                      <div>Romantique</div>
                      <div>Animaux autorisés</div>
 
                  </div>
+
+                </header>
                  <p><i class="fas fa-info"></i> </p>
 
                  <div class="hébergements"> <!--Block hébergements-->
@@ -49,11 +54,37 @@
                     <aside><strong>Hébergements à Marseille</strong></aside>
 
                  </div>
-
-            
-        </nav>
-    </header>
     
     
 </body>
+
+<footer>
+    <div class="footer">
+        <p><strong>A propos</strong><br>
+            <br>
+        Fonctionnement du site <br>
+        Conditions générales de ventes <br>
+        Données et confidentialités
+    </p>
+    </div>
+
+    <div class="footer"></div>
+        <p><strong>Nos hébergements</strong><br>
+            <br>
+        Charte qualité<br>
+        Soumettre votre hôtel
+        </p>
+    </div>
+
+    <div class="footer"></div>
+        <p><strong>Assistance</strong><br></p>
+            <br>
+           <p> Centre d'aide</p> <br>
+            <p> Nous contacter</p> <br>
+    </div>
+        
+
+
+    </div>
+</footer>
 </html>

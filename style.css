@@ -1,19 +1,9 @@
-/* Inserer Font */
-@font-face
-
-
-
-/* parametres filtres */
-
-.filtres
+.footer
 {
-     display: flex;
-
-}
-
-/* block hébergements */
-.hébergements
-{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #f2f2f2;
 }
 
+
+    
