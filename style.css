@@ -1,0 +1,19 @@
+/* Inserer Font */
+@font-face
+
+
+
+/* parametres filtres */
+
+.filtres
+{
+     display: flex;
+
+}
+
+/* block hébergements */
+.hébergements
+{
+    background-color: #f2f2f2;
+}
+
