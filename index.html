@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="France">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cf4023b3a4.js" crossorigin="anonymous"></script>
+
+
     <title>Reservia</title>
+
 </head>
 <body>
     <header>
-        <img src="images/logo/Reservia@3x.png" alt="logo reservia">
+        <img class="logo_reservia" src="images/logo/Reservia@3x.png" alt="logo reservia">
 
         <nav class="navigation">  <!--Menu de navigation-->
-            <ol>
-                <ul>Hébergements</ul>
-                <ul>Activité</ul>
-                <ul>S'inscrire</ul>
-            </ol>
+            <ul>
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activité</a></li>
+                <li><a href="#">S'inscrire</a></li>
+            </ul>
         </nav>
 
 
@@ -28,63 +31,96 @@
 
             <form action="https://www.google.com/maps/@46.2192649,2.0517,6z">
 
-                <i style="geoloc" class="fas fa-map-marker-alt"></i>
+               <div><i  class="fas fa-map-marker-alt"></i>
+
+               
                 <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
 
-                 <id="recherche"><input type="button" value="Rechercher"></form> <!-- Bouton rechercher-->
+                 <form><input type="button" class="button" value="Rechercher"></form> <!-- Bouton rechercher-->
 
 
-                        <!--barre de filtres-->
+                        <!--Barre de filtres-->
                      <p> <strong>Filtres</strong></p>
 
-                     <div class="filtres">
+                     <div>
 
-                     <div>Economique</div>
-                     <div>Familial</div>
-                     <div>Romantique</div>
-                     <div>Animaux autorisés</div>
+                        <ul class="filtres" >
+
+                     <li><strong><a href="#">Economique</strong></a></li>
+                     <li><strong><a href="#">Familial</strong></a></li>
+                     <li><strong><a href="#">Romantique</strong></a></li>
+                     <li><strong><a href="#">Animaux autorisés</strong></a></li>
+
+                        </ul>
 
                  </div>
 
-                </header>
-                 <p><i class="fas fa-info"></i> </p>
+                </header>                                   <!--Icone information-->
+                 <p><i style="info" class="fas fa-info"></i> 
+                Plus de 500 logements sont disponibles dans cette ville</p>
 
-                 <div class="hébergements"> <!--Block hébergements-->
+                 <div class="hebergements"> <!--Block hébergements-->
+                    
 
                     <aside><strong>Hébergements à Marseille</strong></aside>
 
-                 </div>
-    
-    
+                    <a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt=""></a>
+
+                </div>
+
+                <div style="populaire"> <!--Block plus populaires-->
+
+                <p><strong>Les plus populaires</strong></p>
+                    <a href="#"><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=""></a>
+                    <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt=""></a>
+
+                </div> 
+
+                <!-- Bloc activités à Marseille -->
+
+                <p><strong>Activités à Marseille</strong></p>
+
+                <a href="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""></a>
+                <a href="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"><img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""></a>
+                <a href="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""></a>
+                <a href="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""></a>
+                <a href="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></a>
+                <a href="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg"><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""></a>
+
 </body>
 
-<footer>
-    <div class="footer">
-        <p><strong>A propos</strong><br>
+<footer>      
+    <div class="footer"> <!--Mise en page pied de page-->
+
+       <div class="container"> 
+
+           <p><strong>A propos</strong><br>
             <br>
         Fonctionnement du site <br>
         Conditions générales de ventes <br>
-        Données et confidentialités
-    </p>
-    </div>
+        Données et confidentialités</p>
 
-    <div class="footer"></div>
-        <p><strong>Nos hébergements</strong><br>
+        <div class="container">
+
+            <p><strong>Nos hébergements</strong><br>
             <br>
         Charte qualité<br>
-        Soumettre votre hôtel
-        </p>
-    </div>
+        Soumettre votre hôtel</p>
+    
+        <div class="container">
 
-    <div class="footer"></div>
-        <p><strong>Assistance</strong><br></p>
-            <br>
-           <p> Centre d'aide</p> <br>
-            <p> Nous contacter</p> <br>
-    </div>
-        
+            <p><strong>Assistance</strong><br>
+            
+           <p> Centre d'aide</p><br>
+            <p> Nous contacter</p> 
 
 
-    </div>
+        </div>
 </footer>
 </html>

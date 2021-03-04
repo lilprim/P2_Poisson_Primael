@@ -1,8 +1,102 @@
+@font-face   /* Font a utiliser */
+{
+    font-family: "Raleway";
+
+        src: url(police/static/Raleway-Black.ttf)format("ttf"),
+            url(police/static/Raleway-BlackItalic.ttf)format("ttf"),
+            url(police/static/Raleway-Bold.ttf)format("ttf"),
+            url(police/static/Raleway-BoldItalic.ttf)format("ttf"),
+            url(police/static/Raleway-ExtraBold.ttf)format("ttf"),
+            url(police/static/Raleway-ExtraBoldItalic.ttf)format("ttf"),
+            url(police/static/Raleway-ExtraLight.ttf)format("ttf"),
+            url(police/static/Raleway-ExtraLightItalic.ttf)format("ttf"),
+            url(police/static/Raleway-Italic.ttf)format("ttf"),
+            url(police/static/Raleway-MediumItalic.ttf)format("ttf"),
+            url(police/static/Raleway-Medium.ttf)format("ttf"),
+            url(police/static/Raleway-Regular.ttf)format("ttf"),
+            url(police/static/Raleway-SemiBold.ttf)format("ttf"),
+            url(police/static/Raleway-SemiBoldItalic.ttf)format("ttf"),
+            url(police/static/Raleway-Thin.ttf)format("ttf"),
+            url(police/static/Raleway-ThinItalic.ttf)format("ttf"),
+            url(police/Raleway-Italic-VariableFont_wght.ttf)format("ttf"),
+            url(police/Raleway-VariableFont_wght.ttf)format("ttf"),
+}
+
+
+.logo_reservia   /* Dimension et placement logo (logo_reservia) */
+{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+ul         /* Config barre de navigation */
+{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    list-style-type: none;
+    
+}
+
+li a
+{
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    padding: 8px 30px 8px 8px;
+
+}
+li a:hover
+{
+    
+    color:  #0065FC;
+}
+
+
+/* config barre de recherche */
+
+.button
+{
+    background-color: #0065FC;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Config Filtres */
+
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 10px 30px 10px 10px;
+}
+
+/* Bloc hebergements */ 
+
+/* bloc populaires */
+
+
+
+/* pied de page */
 .footer
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #f2f2f2;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-between;
+    height: auto;
+    width: auto;
 }
 
 
