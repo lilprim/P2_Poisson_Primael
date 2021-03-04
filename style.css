@@ -95,10 +95,18 @@ li a:hover
 {
     display: flex;
     flex-direction: row;
-    align-items: ;
     background-color: #f2f2f2;
 }
 
+.blue
+{
+    color: black;
+}
+
+.loc
+{
+    background-color: grey;
+}
 
 
 
