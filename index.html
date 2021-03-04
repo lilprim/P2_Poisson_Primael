@@ -23,43 +23,50 @@
             </ul>
         </nav>
 
+     </header> 
 
-            <p> <strong>Trouver votre hébergement pour des vacances de rêve</strong> </p>
-            <p>En plein centre ville ou en pleine nature</p>
+    <section class="Localisation">
+        <p> <strong>Trouver votre hébergement pour des vacances de rêve</strong> </p>
+        <p>En plein centre ville ou en pleine nature</p>
 
-            <!--Localisation-->
+        <!--Localisation-->
 
-            <form action="https://www.google.com/maps/@46.2192649,2.0517,6z">
+        <form action="https://www.google.com/maps/@46.2192649,2.0517,6z">
+            
+            <div><i  class="fas fa-map-marker-alt"></i>
 
-               <div><i  class="fas fa-map-marker-alt"></i>
+            <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
 
-               
-                <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
+                <input type="button" class="button" value="Rechercher"> <!-- Bouton rechercher-->
+            </div>
 
-                 <form><input type="button" class="button" value="Rechercher"></form> <!-- Bouton rechercher-->
+        </form>
 
 
-                        <!--Barre de filtres-->
-                     <p> <strong>Filtres</strong></p>
+            
+                            <!--Barre de filtres-->
+                <p> <strong>Filtres</strong></p>
 
-                     <div>
+            <div>
 
-                        <ul class="filtres" >
+                <ul class="filtres" >
 
-                     <li><strong><a href="#">Economique</strong></a></li>
-                     <li><strong><a href="#">Familial</strong></a></li>
-                     <li><strong><a href="#">Romantique</strong></a></li>
-                     <li><strong><a href="#">Animaux autorisés</strong></a></li>
+                    <li><strong><a href="#">Economique</strong></a></li>
+                    <li><strong><a href="#">Familial</strong></a></li>
+                    <li><strong><a href="#">Romantique</strong></a></li>
+                    <li><strong><a href="#">Animaux autorisés</strong></a></li>
 
-                        </ul>
+                </ul>
 
-                 </div>
+            </div>
 
-                </header>                                   <!--Icone information-->
-                 <p><i style="info" class="fas fa-info"></i> 
-                Plus de 500 logements sont disponibles dans cette ville</p>
+                                                <!--Icone information-->
+                <p><i style="info" class="fas fa-info"></i> 
+            Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
 
-                 <div class="hebergements"> <!--Block hébergements-->
+        <section class="hebergement">
+                 <div> <!--Block hébergements-->
                     
 
                     <aside><strong>Hébergements à Marseille</strong></aside>
@@ -73,15 +80,18 @@
 
                 </div>
 
-                <div style="populaire"> <!--Block plus populaires-->
+                <aside style="populaire"> <!--Block plus populaires-->
 
                 <p><strong>Les plus populaires</strong></p>
                     <a href="#"><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt=""></a>
                     <a href="#"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=""></a>
                     <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt=""></a>
 
-                </div> 
+                </aside> 
+                 
+        </section>
 
+        <section class="activite">
                 <!-- Bloc activités à Marseille -->
 
                 <p><strong>Activités à Marseille</strong></p>
@@ -92,8 +102,7 @@
                 <a href="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""></a>
                 <a href="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""></a>
                 <a href="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg"><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""></a>
-
-</body>
+        </section>
 
 <footer>      
     <div class="footer"> <!--Mise en page pied de page-->
@@ -104,7 +113,8 @@
             <br>
         Fonctionnement du site <br>
         Conditions générales de ventes <br>
-        Données et confidentialités</p>
+        Données et confidentialités</p> 
+        </div>
 
         <div class="container">
 
@@ -112,15 +122,20 @@
             <br>
         Charte qualité<br>
         Soumettre votre hôtel</p>
+        </div>
     
         <div class="container">
 
             <p><strong>Assistance</strong><br>
+                <br>
             
-           <p> Centre d'aide</p><br>
-            <p> Nous contacter</p> 
-
-
+            Centre d'aide<br>
+            Nous contacter</p> 
         </div>
+
+    </div>
 </footer>
+
+</body>
+
 </html>

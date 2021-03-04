@@ -1,32 +1,27 @@
-@font-face   /* Font a utiliser */
-{
-    font-family: "Raleway";
+ @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-        src: url(police/static/Raleway-Black.ttf)format("ttf"),
-            url(police/static/Raleway-BlackItalic.ttf)format("ttf"),
-            url(police/static/Raleway-Bold.ttf)format("ttf"),
-            url(police/static/Raleway-BoldItalic.ttf)format("ttf"),
-            url(police/static/Raleway-ExtraBold.ttf)format("ttf"),
-            url(police/static/Raleway-ExtraBoldItalic.ttf)format("ttf"),
-            url(police/static/Raleway-ExtraLight.ttf)format("ttf"),
-            url(police/static/Raleway-ExtraLightItalic.ttf)format("ttf"),
-            url(police/static/Raleway-Italic.ttf)format("ttf"),
-            url(police/static/Raleway-MediumItalic.ttf)format("ttf"),
-            url(police/static/Raleway-Medium.ttf)format("ttf"),
-            url(police/static/Raleway-Regular.ttf)format("ttf"),
-            url(police/static/Raleway-SemiBold.ttf)format("ttf"),
-            url(police/static/Raleway-SemiBoldItalic.ttf)format("ttf"),
-            url(police/static/Raleway-Thin.ttf)format("ttf"),
-            url(police/static/Raleway-ThinItalic.ttf)format("ttf"),
-            url(police/Raleway-Italic-VariableFont_wght.ttf)format("ttf"),
-            url(police/Raleway-VariableFont_wght.ttf)format("ttf"),
-}
+
+ body
+ {
+     font-family: "Raleway", "Sans-serif";
+
+ }
+
+ header{
+
+    max-width: 1440px;
+    align-items: center;
+    display: flex;
+ }  
+
+
 
 
 .logo_reservia   /* Dimension et placement logo (logo_reservia) */
 {
     max-width: 10%;
     max-height: 10%;
+    margin-left: 30px;
 }
 
 ul         /* Config barre de navigation */
@@ -52,6 +47,13 @@ li a:hover
     color:  #0065FC;
 }
 
+.navigation
+ {
+     max-width: 400px;
+     display: flex;
+     float: right;
+ }
+
 
 /* config barre de recherche */
 
@@ -75,6 +77,13 @@ li a:hover
     padding: 10px 30px 10px 10px;
 }
 
+/* bloc activités */
+
+.activite
+{
+    background-color: #f2f2f2;
+}
+
 /* Bloc hebergements */ 
 
 /* bloc populaires */
@@ -85,19 +94,12 @@ li a:hover
 .footer
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: ;
     background-color: #f2f2f2;
 }
 
-.container
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-content: space-between;
-    height: auto;
-    width: auto;
-}
+
 
 
     
