@@ -1,21 +1,24 @@
- @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 
- body
- {
-     font-family: "Raleway", "Sans-serif";
+body
+{
+    font-family: "Raleway", "Sans-serif";
+}
 
- }
-
- header{
-
+section
+{
     max-width: 1440px;
-    align-items: center;
-    display: flex;
+    margin:auto;
+}
+
+/* HEADER */
+
+ header
+ {
+    max-width: 1440px;
+    margin:auto;
  }  
-
-
-
 
 .logo_reservia   /* Dimension et placement logo (logo_reservia) */
 {
@@ -24,13 +27,19 @@
     margin-left: 30px;
 }
 
+.navigation
+{
+    max-width: 400px;
+    display: flex;
+    float: right;
+}
+
 ul         /* Config barre de navigation */
 {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
 
 li a
@@ -39,20 +48,14 @@ li a
     color: grey;
     text-decoration: none;
     padding: 8px 30px 8px 8px;
-
 }
+
 li a:hover
-{
-    
+{  
     color:  #0065FC;
 }
 
-.navigation
- {
-     max-width: 400px;
-     display: flex;
-     float: right;
- }
+
 
 
 /* config barre de recherche */
@@ -77,36 +80,51 @@ li a:hover
     padding: 10px 30px 10px 10px;
 }
 
+
+
+/* Bloc hebergements */ 
+.hbg
+{
+    background-color: #f2f2f2;
+    max-width: 50%;
+    max-height: 60%;
+    margin-left: 30px;
+}
+
+.picture
+{
+    display: flex;
+    
+}
+
 /* bloc activités */
 
 .activite
 {
     background-color: #f2f2f2;
 }
-
-/* Bloc hebergements */ 
-
 /* bloc populaires */
 
 
 
-/* pied de page */
+/* FOOTER */
 .footer
 {
-    display: flex;
-    flex-direction: row;
     background-color: #f2f2f2;
 }
 
+.footer-petit
+{
+    max-width: 1440px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
 .blue
 {
     color: black;
 }
 
-.loc
-{
-    background-color: grey;
-}
 
 
 
