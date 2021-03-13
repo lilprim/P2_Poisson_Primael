@@ -17,9 +17,9 @@
 
         <nav class="navigation">  <!--Menu de navigation-->
             <ul>
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activité</a></li>
-                <li><a href="#">S'inscrire</a></li>
+                <li class="hbg"><a href="#">Hébergements</a></li>
+                <li class="act"><a href="#">Activité</a></li>
+                <li class="ins"><a class="bleu1" href="#">S'inscrire</a></li>
             </ul>
         </nav>
 
@@ -30,17 +30,17 @@
         <p>En plein centre ville ou en pleine nature</p>
 
         <!--Localisation-->
-
+        <div class="search">    
         <form action="https://www.google.com/maps/@46.2192649,2.0517,6z">
             
-            <span class="loc"><i  class="fas fa-map-marker-alt black"></i></span>
-
-            <div>
-            <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
+            <span class="loc"><i class="fas fa-map-marker-alt  black"></i></span>
+                <input type="text" id="adresse" placeholder="Marseille,France"> <!--barre de recherche-->
 
                <button type="button" class="button" >
                    <span>Rechercher</span>
-               </button>  <!-- Bouton rechercher-->
+               </button> 
+            
+            <!-- Bouton rechercher-->
 
             </div>
     
@@ -50,16 +50,25 @@
 
             
                             <!--Barre de filtres-->
-                <p> <strong>Filtres</strong></p>
+               
 
-            <div>
+            <div class="filtres">
 
-                <ul class="filtres" >
+                     <p> <strong>Filtres</strong></p>
 
-                    <li><strong><a href="#">Economique</strong></a></li>
-                    <li><strong><a href="#">Familial</strong></a></li>
-                    <li><strong><a href="#">Romantique</strong></a></li>
-                    <li><strong><a href="#">Animaux autorisés</strong></a></li>
+                <ul>
+
+                    <div class="money"><i class="fas fa-money-bill-wave fa-xs bleu"></i></div>
+                        <div class="filtre1"><li><strong><a href="#">Economique</strong></a></li></div>
+
+                    <div class="child"><i class="fas fa-child bleu"></i></div>
+                        <div class="filtre1"><li><strong><a href="#">Familial</strong></a></li></div>
+
+                    <div class="heart"><i class="fas fa-heart bleu"></i></div>
+                        <div class="filtre1"><li><strong><a href="#">Romantique</strong></a></li></div>
+
+                    <div class="dog"><i class="fas fa-dog bleu"></i></div>
+                        <div class="filtre1"><li><strong><a href="#">Animaux autorisés</strong></a></li></div>
 
                 </ul>
 
@@ -67,7 +76,7 @@
 
                                                 <!--Icone information-->
 
-                <p><i style="info" class="fas fa-info bleu"></i> 
+                <p><i  class="fas fa-info fa-sm infos bleu"></i>
             Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
@@ -240,93 +249,91 @@
         
                 
 
-                <p><strong>Activités à Marseille</strong></p>
-              <div class="activite-container"> 
-                <section class="activite">
+               
+              
+                <section class="activite"> 
+                    
+            <h2>Activités à Marseille</h2>
 
-                    <div class="activite-vignette">
-                                    <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                    <div class="activite-vignette type1">
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
                          alt="photo_activite">
-                            <h3>Vieux port</h3>
+                        </div>
+                        <h3>Vieux port</h3>
                     </div>
                         
-                    <div class="activite-whitespace"></div>
-                    </div>  
-        
-                    <div class="activite-vignette">
-                            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+                    <div class="activite-vignette type2">
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                         alt="photo_activite">
+                        </div>
+                        <h3>Vieux port</h3>
+                    </div>
+
+                     <div class="activite-vignette type3"> 
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
                         alt="photo_activite">
-                            <h3>Vieux port</h3>
-                    </div>
-                        
-                    <div class="activite-whitespace"></div>
+                        </div>
+                        <h3>Vieux port</h3>
                     </div>
 
-                    <div class="activite-vignette">
-                            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
-                            alt="photo_activite">
-                            <h3>Vieux port</h3>
-                    </div>
-                        
-                    <div class="activite-whitespace"></div>
-                    </div>
-            
-                    <div class="activite-vignette">
-                            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
-                                alt="photo_activite">
-                            <h3>Vieux port</h3>
-                    </div>
-                        
-                        <div class="activite-whitespace"></div>
+                    <div class="activite-vignette type4">
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                        alt="photo_activite">
+                        </div>
+                        <h3>Vieux port</h3>
                     </div>
 
-                    <div class="activite-vignette">
-                            <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
-                                alt="photo_activite">
-                                <h3>Vieux port</h3>
-                    </div>
-                        
-                        <div class="activite-whitespace"></div>
+                    <div class="activite-vignette type5">
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                        alt="photo_activite">
+                        </div>
+                        <h3>Vieux port</h3>
                     </div>
 
-                    <div class="activite-vignette">
-                            <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
-                                alt="photo_activite">
-                                <h3>Vieux port</h3>
-                    </div>
-                        
-                    <div class="activite-whitespace"></div>
+                    <div class="activite-vignette type6">
+
+                        <div class="activite-container-image"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                        alt="photo_activite">
+                        </div>
+                        <h3>Vieux port</h3>
+                    </div> 
+                    
                     </div>
         
-                </div>
+                
         </section>
 
-<footer>      
-    <div class="footer-petit">
-        <div class="container"> 
-            <p>
-                <strong>A propos</strong><br><br>
-                Fonctionnement du site <br>
-                Conditions générales de ventes <br>
-                Données et confidentialités
-            </p> 
+    <footer>      
+        <div class="footer-petit">
+                <div class="container"> 
+                        <p>
+                            <strong>A propos</strong><br><br>
+                            Fonctionnement du site <br>
+                            Conditions générales de ventes <br>
+                            Données et confidentialités
+                        </p> 
+                             </div>
+                        <div class="container">
+                        <p>
+                            <strong>Nos hébergements</strong><br><br>
+                            Charte qualité<br>
+                            Soumettre votre hôtel
+                        </p>
+                        </div>           
+                        <div class="container">
+                        <p>
+                            <strong>Assistance</strong><br><br>                   
+                            Centre d'aide<br>
+                            Nous contacter
+                        </p> 
+                        </div>
         </div>
-        <div class="container">
-            <p>
-                <strong>Nos hébergements</strong><br><br>
-                Charte qualité<br>
-                Soumettre votre hôtel
-            </p>
-        </div>           
-        <div class="container">
-            <p>
-                <strong>Assistance</strong><br><br>                   
-                Centre d'aide<br>
-                Nous contacter
-            </p> 
-        </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 
