@@ -394,18 +394,18 @@ a{
     grid-row: 4/7;
     grid-column: 4/5;
 
-
-
-
-
-    
+}
 /* FOOTER */
-
-
-
 
 footer
 {
+    background-color: #f2f2f2;
+}
 
-    background-color: #F2F2F2;
+.footer-petit
+{
+    max-width: 1440px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
 }
