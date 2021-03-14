@@ -46,8 +46,8 @@ ul         /* Config barre de navigation */
 
 .hbg{
 
-border-top: 3px solid #0065FC;
-box-sizing: border-box;
+    border-top: 3px solid #0065FC;
+    box-sizing: border-box;
 
 }
 li a
@@ -80,6 +80,13 @@ li a:hover
 
 /* config barre de recherche */
 
+#adresse
+{
+    border-right: none;
+    border-left: none;
+    
+}
+
 .button
 {
     background-color: #0065FC;
@@ -91,21 +98,21 @@ li a:hover
 }
 
 .loc{
-
+ 
     background-color: #d9d9d9;
     border: 1px solid transparent;
     display: block;
     width: 50px;
     height: 50px;
-    text-align: center;
-    
-
+    border-radius: 10px 0px 0px 10px;
+    width: 20px;
+    height: 20px;
 }
 
-.search
+form
 {
-    display: flex;
-    
+    display: inline-flex;
+    border-radius: 10px;
 }
 
 /* Config Filtres */
@@ -113,72 +120,31 @@ li a:hover
 .filtres
 {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
+    flex-direction: row;                                                                        
     color: black;
     padding: 10px 30px 10px 10px;
     
 }
 
+.filtres-bouton-titre{
 
-
-.filtre1{
-
-    border: 1px solid grey ;
+    
+    border: 1px solid gray;
     
 }
 
-.money
+.filtres-bouton-gauche
 {
-
+    
     height: 20px;
     width: 20px;
-    border: 1px solid grey;
+    border: 1px solid transparent;
     position: relative;
     border-radius: 50%;
     text-align: center;
     padding: 0.2em 0.2em;
     background-color: #DEEBFF;
 }
-
-.child{
-
-    height: 20px;
-    width: 20px;
-    border: 1px solid grey;
-    position: relative;
-    border-radius: 50%;
-    text-align: center;
-    padding: 0.2em 0.2em;
-    background-color: #DEEBFF;
-}
-
-.heart
-{
-
-    height: 20px;
-    width: 20px;
-    border: 1px solid grey;
-    position: relative;
-    border-radius: 50%;
-    text-align: center;
-    padding: 0.2em 0.2em;
-    background-color: #DEEBFF;
-}
-
-.dog
-{
-
-    height: 20px;
-    width: 20px;
-    border: 1px solid grey;
-    position: relative;
-    border-radius: 50%;
-    text-align: center;
-    padding: 0.2em 0.2em;
-    background-color: #DEEBFF;
-}
-
 
 /* Icone information */
 
@@ -193,6 +159,10 @@ border-radius: 50%;
 text-align: center;
 padding: 0.2em 0.2em;
 
+}
+.pad-info{
+
+    padding-left: 9.5em;
 }
 
 
