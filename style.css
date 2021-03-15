@@ -409,3 +409,30 @@ footer
     display: flex;
     justify-content: space-around;
 }
+
+
+@media screen and (max-width: 1024px)
+{
+    .logo_reservia   /* Dimension et placement logo (logo_reservia) */
+    {
+        max-width: 20%;
+        max-height: 20%;
+        margin-left: 10px;
+    }
+
+    .ins
+    {
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    li .hbg .act
+    {
+    
+        margin-top: 50px;
+        
+    }
+
+
+}
