@@ -23,8 +23,8 @@ section
 
 .logo_reservia   /* Dimension et placement logo (logo_reservia) */
 {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 8%;
+    max-height: 8%;
     margin-left: 0px;
 }
 
@@ -78,12 +78,19 @@ li a
 
 /* config barre de recherche */
 
+.find{
+
+    font-size: 25px;
+}
 #adresse
 {
     border: 1px solid #f2f2f2;
     padding: 0 1rem;
+    font-weight: bold;
     
 }
+
+
 
 .button
 {
@@ -107,6 +114,7 @@ li a
 form
 {
     display: inline-flex;
+    margin-top: 1rem;
 }
 
 /* Config Filtres */
@@ -123,7 +131,8 @@ form
 .filtres h2{
 
     display: flex;
-    margin: 1rem;
+    margin: 0.5rem 2rem;
+    margin-left: 0;
 
 }
 
@@ -139,7 +148,7 @@ form
 
 .filtres-bouton-titre{
 
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 
 }
 
@@ -148,8 +157,8 @@ form
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     text-align: center;
     padding: 0.2em 0.2em;
@@ -416,6 +425,7 @@ a{
 footer
 {
     background-color: #f2f2f2;
+    margin-top: 7rem;
 }
 
 .footer-petit
