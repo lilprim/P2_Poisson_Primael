@@ -522,6 +522,7 @@ margin-top: 0.8rem;
     .logo_reservia{
 
         order: 0;
+        margin: 1.2rem;
     }   
 
     .inscription
@@ -541,6 +542,7 @@ margin-top: 0.8rem;
 
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
+        border-top: none;
     }
 
     .act{
@@ -618,8 +620,7 @@ margin-top: 0.8rem;
     /* Populaires */
 
     .populaire{
-        display: flex;
-        flex-direction: column;
+        display: grid;
         width: 100%;
         background-color: #F2F2F2;
         border-radius: 1.5rem;
@@ -629,17 +630,19 @@ margin-top: 0.8rem;
         border-radius: 0;
          
     }
+    .populaire-vignette {
+
+    margin: inherit;
+    }
+    .populaire-notation{
+
+        margin: 2rem 0.75rem 0.25rem 0.75rem;
+    }
 
     .populaire h2{
 
         width: 100%;
         font-size: 1.5rem;
-    }
-
-    .populaire-whitespace{
-
-        height: 35px;
-        flex: none;
     }
 
     .hebergement{
@@ -710,22 +713,36 @@ margin-top: 0.8rem;
     .hebergement {
         display: flex;
         flex-wrap: wrap;
-        column-gap: 2rem;
+        grid-template-columns: 1fr;
         margin-bottom: 20px;
+        row-gap: 2rem;
     }
 
     .populaire{
 
-        margin: 2rem;
+        width: 100%;
+    }
+
+    .populaire-notation{
+
+        margin: 2rem 0.75rem 0.25rem 0.75rem;
     }
 
     
     .activite{
 
-        
-        grid-template-rows: auto 12rem 12rem 12rem ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 12rem 12rem 12rem;
         row-gap: 2rem;
     }
+    .activite h3{
 
+        font-size: 0.9rem;
+    }
+    .footer-petit{
 
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    }
 }
